@@ -1,0 +1,125 @@
+.bg-menu {
+    margin: 50px auto;
+    width: 1000px;
+    height: 150px;
+    background: #34485e;
+}
+.bg-menu ul {
+    margin: 0;
+    padding: 30px;
+}
+.link {
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background: #3598db;
+    margin: 20px -7px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px;
+    line-height: 2;
+}
+.home {
+    width: 70px;
+    clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+.project {
+    width: 160px;
+    background: #2980b9;
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.beadcrumb {
+    width: 190px;
+    clip-path: polygon(91% 0, 100% 50%, 91% 100%, 0% 100%,9% 50%, 0% 0%);
+}
+.getting-started {
+    width: 240px;
+    background: #2980b9;
+    clip-path: polygon(93% 0, 100% 50%, 93% 100%, 0% 100%, 7% 50%, 0% 0%);
+}
+.download {
+    width: 190px;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 9% 50%, 0% 0%);
+}
+.box {
+    border: 1px solid #ccd5d8;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #8a9092;
+}
+.question {
+    border-top: 1px solid #ccd5d8;
+    border-bottom: 1px solid #ccd5d8;
+}
+.header {
+    box-sizing: border-box;
+    text-align: center;
+    background: #f4f4f4;
+    height: 300px;
+    padding: 75px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+.header .loading {
+    margin: 20px auto;
+    width: 180px;
+    height: 20px;
+    border-radius: 15px;
+    background: #808080;
+}
+.header p {
+    font-weight: 500;
+    font-size: 25px;
+}
+.question {
+    text-align: center;
+}
+.question h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+.question p {
+    text-align: justify;
+    width: 900px;
+    height: 60px;
+    background: #ededed;
+    border-radius: 50px;
+    margin: 30px auto;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.control {
+    height: 70px;
+    background: #f4f4f4;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 25px;
+}
+.control button {
+    width: 100px;
+    height: 50px;
+    background: #f4f4f4;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid #bcbcbc;
+    font-size: 25px;
+    margin: 0 40px;
+    outline: none;
+}
+.control button:nth-child(1) {
+    float: left;
+}
+.control button:nth-child(2) {
+    float: right;
+}
